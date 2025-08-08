@@ -11,8 +11,12 @@
     "format": "biome format ."
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@react-email/components": "0.4.0",
+    "formik": "^2.4.6",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "yup": "^1.7.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.1.3",
