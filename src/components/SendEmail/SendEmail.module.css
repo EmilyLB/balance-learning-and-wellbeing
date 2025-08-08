@@ -1,0 +1,27 @@
+.sectionWrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.label {
+	padding: 8px;
+	text-align: left;
+}
+
+.fieldInput {
+	padding: 20px;
+}
+
+.areaInput {
+	padding: 20px;
+	resize: none;
+	height: 150px;
+}
+
+.sendButton {
+	padding: 8px;
+}
+
+.paddingWrapper {
+	padding: 8px;
+}
