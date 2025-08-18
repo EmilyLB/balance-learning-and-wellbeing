@@ -25,3 +25,7 @@
 .paddingWrapper {
 	padding: 8px;
 }
+
+.validationError {
+	color: red;
+}
