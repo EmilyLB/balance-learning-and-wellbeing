@@ -1,0 +1,48 @@
+.h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #55a3b2;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.imgWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.img {
+	width: 100px;
+	height: 100px;
+}
+
+.boxesWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+/* .circle {
+	display: flex;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	background-color: #cbbbef;
+	margin-bottom: 8px;
+	align-items: center;
+	flex-direction: column;
+} */
+
+.box {
+	border: 4px solid #cbbbef;
+	padding: 12px;
+	margin-bottom: 8px;
+}
+
+.ul {
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	padding: 0px;
+}
