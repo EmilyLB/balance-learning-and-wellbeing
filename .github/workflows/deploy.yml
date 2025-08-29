@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:  
   push:  
     branches:  
-      - blah  
+      - main  
   
 jobs:  
   build:  
@@ -16,7 +16,7 @@ jobs:
     - name: Setup Node.js  
       uses: actions/setup-node@v3  
       with:  
-        node-version: '22' # Use the version of Node.js you need  
+        node-version: '22'  
   
     - name: Install dependencies  
       run: npm install  
@@ -27,5 +27,5 @@ jobs:
     - name: Deploy to GitHub Pages  
       uses: JamesIves/github-pages-deploy-action@v4  
       with:  
-        branch: gh-pages # Deploy to the gh-pages branch  
-        folder: dist # Folder to deploy (adjust based on your build output directory) 
+        branch: gh-pages   
+        folder: dist 
