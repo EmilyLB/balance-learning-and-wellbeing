@@ -6,7 +6,7 @@ export const AboutMe = () => {
 			<h2 className={styles.h2}>About Me</h2>
 			<div className={styles.wrapper}>
 				<img
-					src="../../../public/Profile Picture.JPG"
+					src="/balance-learning-and-wellbeing/Profile Picture.JPG"
 					alt="profile"
 					className={styles.image}
 				/>

@@ -6,7 +6,7 @@ export const ServicesOffered = () => {
 			<h2 className={styles.h2}>Services Offered</h2>
 			<div className={styles.imgWrapper}>
 				<img
-					src="../../../public/ButterlyLogo.png"
+					src="/balance-learning-and-wellbeing/ButterlyLogo.png"
 					alt="logo"
 					className={styles.img}
 				/>
