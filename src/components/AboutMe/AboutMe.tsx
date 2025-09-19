@@ -1,9 +1,10 @@
+import { SectionHeader } from "../SectionHeader";
 import styles from "./AboutMe.module.css";
 
 export const AboutMe = () => {
 	return (
 		<section>
-			<h2 className={styles.h2}>About Me</h2>
+			<SectionHeader headerText="About Me" />
 			<div className={styles.wrapper}>
 				<img
 					src="/balance-learning-and-wellbeing/Profile Picture.JPG"

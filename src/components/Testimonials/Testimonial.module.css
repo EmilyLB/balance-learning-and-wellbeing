@@ -1,0 +1,21 @@
+.slidesList {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	flex-direction: column;
+	align-items: center;
+	margin: 12px;
+}
+
+.slidesButtonsWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.slidesButtons {
+	margin: 8px;
+}
+
+.slidesText {
+	text-align: center;
+}

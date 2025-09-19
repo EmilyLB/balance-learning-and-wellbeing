@@ -1,9 +1,10 @@
+import { SectionHeader } from "../SectionHeader";
 import styles from "./ServicesOffered.module.css";
 
 export const ServicesOffered = () => {
 	return (
 		<section>
-			<h2 className={styles.h2}>Services Offered</h2>
+			<SectionHeader headerText="Services Offered" />
 			<div className={styles.imgWrapper}>
 				<img
 					src="/balance-learning-and-wellbeing/ButterlyLogo.png"
