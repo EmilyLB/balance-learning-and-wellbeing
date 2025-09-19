@@ -1,9 +1,10 @@
 import { AboutMe } from "../AboutMe";
+import { ContactMe } from "../ContactMe";
 import { Header } from "../Header";
 import { NavBarDesktop } from "../NavBarDesktop";
 import { PageWrapper } from "../PageWrapper/PageWrapper";
-import { SendEmail } from "../SendEmail";
 import { ServicesOffered } from "../ServicesOffered";
+import { Testimonials } from "../Testimonials";
 
 export const HomePage = () => (
 	<>
@@ -12,8 +13,8 @@ export const HomePage = () => (
 		<PageWrapper>
 			<ServicesOffered />
 			<AboutMe />
-			<h2>Contact Me</h2>
-			<SendEmail />
+			<Testimonials />
+			<ContactMe />
 		</PageWrapper>
 	</>
 );
